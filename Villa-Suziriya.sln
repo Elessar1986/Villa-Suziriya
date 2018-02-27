@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villa-Suziriya", "Villa-Suziriya\Villa-Suziriya.csproj", "{BF664EAA-0E17-4F4A-98B1-9F991D65B5DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Villa-Suziriya.Tests", "Villa-Suziriya.Tests\Villa-Suziriya.Tests.csproj", "{8B9B4D3F-AAAB-4F61-A142-574F0337FAAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF664EAA-0E17-4F4A-98B1-9F991D65B5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF664EAA-0E17-4F4A-98B1-9F991D65B5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF664EAA-0E17-4F4A-98B1-9F991D65B5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF664EAA-0E17-4F4A-98B1-9F991D65B5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B9B4D3F-AAAB-4F61-A142-574F0337FAAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B9B4D3F-AAAB-4F61-A142-574F0337FAAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B9B4D3F-AAAB-4F61-A142-574F0337FAAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B9B4D3F-AAAB-4F61-A142-574F0337FAAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B913E8B2-53C3-4DE6-98EC-8DDAD554AC3E}
+	EndGlobalSection
+EndGlobal
