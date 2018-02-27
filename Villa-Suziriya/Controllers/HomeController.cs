@@ -9,7 +9,7 @@ namespace Villa_Suziriya.Controllers
     public class HomeController : Controller
     {
 
-        // init
+        // in
         public ActionResult Index()
         {
             return View();
