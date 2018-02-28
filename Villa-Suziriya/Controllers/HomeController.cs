@@ -12,6 +12,7 @@ namespace Villa_Suziriya.Controllers
         // in
         public ActionResult Index()
         {
+            string test;
             return View();
         }
 
