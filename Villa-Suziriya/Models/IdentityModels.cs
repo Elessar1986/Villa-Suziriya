@@ -1,4 +1,5 @@
-﻿using System.Data.Entity;
+﻿using System;
+using System.Data.Entity;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Identity;
@@ -16,6 +17,14 @@ namespace Villa_Suziriya.Models
             // Add custom user claims here
             return userIdentity;
         }
+    }
+
+    public class Reserve
+    {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public DateTime StartDate { get; set; }
+        public DateTime EndDate { get; set; }
     }
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
