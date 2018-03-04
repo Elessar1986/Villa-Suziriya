@@ -39,4 +39,29 @@ namespace Villa_Suziriya.Models
             return new ApplicationDbContext();
         }
     }
+
+    public class AppDbInitializer : DropCreateDatabaseAlways<ApplicationDbContext>
+    {
+        protected override void Seed(ApplicationDbContext context)
+        {
+            var userManager = new ApplicationUserManager(new UserStore<ApplicationUser>(context));
+            var roleManager = new RoleManager<IdentityRole>(new RoleStore<IdentityRole>(context));
+
+            var role1 = new IdentityRole("admin");
+            var role2 = new IdentityRole("user");
+
+            roleManager.Create(role1);
+            roleManager.Create(role2);
+
+            var admin = new ApplicationUser { Email = "admin@mail.com", UserName = "admin@mail.com" };
+            if (userManager.Create(admin, "_Zxcv123").Succeeded)
+            {
+                userManager.AddToRole(admin.Id, role1.Name);
+                userManager.AddToRole(admin.Id, role2.Name);
+            }
+
+            base.Seed(context);
+        }
+    }
+
 }

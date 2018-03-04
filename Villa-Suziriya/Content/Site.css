@@ -1,6 +1,9 @@
 ﻿body {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 20px;
+    background-image: url("../Resources/value_e23a9f55968fe960c71064cb61826db1.jpg");
+    background-size:cover;
+    background-color: #cccccc;
 }
 
 /* Set padding to keep content from hitting the edges */
@@ -22,3 +25,46 @@ select,
 textarea {
     max-width: 280px;
 }
+
+.navbar-default {
+    color: white;
+    background-color: #0277bd;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.carousel-inner > .item > img {
+    width: 100%;
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #555555;
+    background-color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.btn-primary {
+    color: white;
+    background-color: #0277bd;
+    border-color: #0277bd;
+}
+
+    .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+        color: #0277bd;
+        background-color: white;
+        border-color: white;
+    }
+
+.thumbnail .caption {
+    color: white;
+    border-radius: 10px;
+    background-color: rgba(2, 119, 189, 0.32);
+}
+
